@@ -29,10 +29,10 @@ document.getElementById("submitButton").onclick = function(){
         if(document.getElementById("standardTier").checked){
             document.getElementById("Label4").innerHTML = standardInCnMK;
         }
-        else if(document.getElementById("seniorTier").checked){
+        if(document.getElementById("seniorTier").checked){
             document.getElementById("Label4").innerHTML = seniorInCnMK;
         }
-        else if(document.getElementById("premiumTier").checked){
+        if(document.getElementById("premiumTier").checked){
             document.getElementById("Label4").innerHTML = premiumInCnMK;
         }
     }
@@ -41,10 +41,10 @@ document.getElementById("submitButton").onclick = function(){
         if(document.getElementById("standardTier").checked){
             document.getElementById("Label4").innerHTML = standardInCnMK;
         }
-        else if(document.getElementById("seniorTier").checked){
+        if(document.getElementById("seniorTier").checked){
             document.getElementById("Label4").innerHTML = seniorInCnMK; 
         }
-        else if(document.getElementById("premiumTier").checked){
+        if(document.getElementById("premiumTier").checked){
             document.getElementById("Label4").innerHTML = premiumInCnMK;
         }
     }
