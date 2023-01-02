@@ -36,7 +36,7 @@ document.getElementById("submitButton").onclick = function(){
             document.getElementById("Label4").innerHTML = premiumInCn;
         }
     }
-    if(document.getElementById(("chinaTick")).checked){
+    if(document.getElementById("chinaTick").checked){
 
         if(document.getElementById("standardTier").checked){
             document.getElementById("Label4").innerHTML = standardInCn;
