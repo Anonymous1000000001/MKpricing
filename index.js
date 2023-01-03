@@ -81,49 +81,50 @@ document.getElementById("submitButton").onclick = function(){
     if(document.getElementById("SRstandardTier1").checked){
             document.getElementById("Label4").innerHTML = SRstandard1;
     }
-    else if(document.getElementById("SRstandardTier2").checked){
+    if(document.getElementById("SRstandardTier2").checked){
             document.getElementById("Label4").innerHTML = SRstandard2;
     }
-    else if(document.getElementById("SRstandardTier3").checked){
+    if(document.getElementById("SRstandardTier3").checked){
             document.getElementById("Label4").innerHTML = SRstandard3;
     }
-    else if(document.getElementById("SRstandardTier4").checked){
+    if(document.getElementById("SRstandardTier4").checked){
             document.getElementById("Label4").innerHTML = SRstandard4;
     }
-    else if(document.getElementById("SRstandardTier5").checked){
+    if(document.getElementById("SRstandardTier5").checked){
             document.getElementById("Label4").innerHTML = SRstandard5;
     }
-    else if(document.getElementById("SRseniorTier1").checked){
+    if(document.getElementById("SRseniorTier1").checked){
             document.getElementById("Label4").innerHTML = SRsenior1;
     }
-    else if(document.getElementById("SRseniorTier2").checked){
+    if(document.getElementById("SRseniorTier2").checked){
             document.getElementById("Label4").innerHTML = SRsenior2;
     }
-    else if(document.getElementById("SRseniorTier3").checked){
+    if(document.getElementById("SRseniorTier3").checked){
             document.getElementById("Label4").innerHTML = SRsenior3;
     }
-    else if(document.getElementById("SRseniorTier4").checked){
+    if(document.getElementById("SRseniorTier4").checked){
             document.getElementById("Label4").innerHTML = SRsenior4;
     }
-    else if(document.getElementById("SRseniorTier5").checked){
+    if(document.getElementById("SRseniorTier5").checked){
             document.getElementById("Label4").innerHTML = SRsenior5;
     }
-    else if(document.getElementById("SRpremiumTier1").checked){
+    if(document.getElementById("SRpremiumTier").checked){
             document.getElementById("Label4").innerHTML = SRpremmium1;
     }
-    else if(document.getElementById("SRpremiumTier2").checked){
+    if(document.getElementById("SRpremiumTier2").checked){
             document.getElementById("Label4").innerHTML = SRpremmium2;
     }
-    else if(document.getElementById("SRpremiumTier3").checked){
+    if(document.getElementById("SRpremiumTier3").checked){
             document.getElementById("Label4").innerHTML = SRpremmium3;
     }
-    else if(document.getElementById("SRpremiumTier4").checked){
+    if(document.getElementById("SRpremiumTier4").checked){
             document.getElementById("Label4").innerHTML = SRpremmium4;
     }
-    else if(document.getElementById("SRpremiumTier5").checked){
+    if(document.getElementById("SRpremiumTier5").checked){
             document.getElementById("Label4").innerHTML = SRpremmium5;
     }
-    
+}
+
 // <input type="radio" id="SRstandardTier1" name="tierTick">
 //     <label>Standard Tier with High-rate<br>(rate between USD 600 - USD 1,049)</label><br>
 //     <input type="radio" id="SRstandardTier2" name="tierTick">
