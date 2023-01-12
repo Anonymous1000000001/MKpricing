@@ -1,3 +1,6 @@
+console.log(document.title);
+document.title = "MK Pricing";
+
 document.getElementById("submitButton").onclick = function(){
 
     let standard = 
