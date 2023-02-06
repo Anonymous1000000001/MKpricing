@@ -15,15 +15,15 @@ document.getElementById("submitButton").onclick = function(){
     let premiumInCn = 
     '<br>NOTE: Unless the client directly ASKs for the India-to-India/CN-CN Discount, Please advise them our REGULAR PRICING (select None).<br><br> When the margin level is below 30% (e.g. expert rate exceeds our charge to the client)<br> please consult with the Client Manager first, though the usual practice is to charge the regular pricing instead of the discounted pricing itself.<br><br> USD 630 for 30 minutes, USD 760 for 45 minutes, USD 875 for 60 minutes, and USD 220 for every 15 minutes after the first 60 minutes <br><br> 30 minutes = USD 630<br> 45 minutes = USD 760<br> 60 minutes = USD 875<br><br> For every 15 minutes after the first 60 minutes = USD 220<br>';
     let SR1 =
-    '<br>USD 1,350 for 60 minutes<br>'
+    '<br>USD 1,350 for 60 minutes<br>(Please check with your manager for proportional pricing)'
     let SR2 =
-    '<br>USD 1,800 for 60 minutes<br>'
+    '<br>USD 1,800 for 60 minutes<br>(Please check with your manager for proportional pricing)'
     let SR3 =
-    '<br>USD 2,250 for 60 minutes<br>'
+    '<br>USD 2,250 for 60 minutes<br>(Please check with your manager for proportional pricing)'
     let SR4 =
-    '<br>USD 2,700 for 60 minutes<br>'
+    '<br>USD 2,700 for 60 minutes<br>(Please check with your manager for proportional pricing)'
     let SR5 =
-    '<br>USD 3,150 for 60 minutes<br>'
+    '<br>USD 3,150 for 60 minutes<br>(Please check with your manager for proportional pricing)'
     
     if(document.getElementById("noneTick").checked){
         if(document.getElementById("standardTier").checked){
